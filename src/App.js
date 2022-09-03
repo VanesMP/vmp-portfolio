@@ -5,7 +5,7 @@ import Homepage from "./Pages/Homepage";
 
 function App() {
   return (
-    <Router basename="/my-portfolio-react">
+    <Router basename="/vmp-portfolio">
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route></Route>
