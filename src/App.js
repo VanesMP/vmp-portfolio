@@ -13,9 +13,6 @@ function App() {
         <Route></Route>
       </Routes>
     </Router>
-    // <div className="App">
-    //   <Background/>
-    // </div>
   );
 }
 

@@ -1,8 +1,8 @@
 {
+    "homepage": "https://vanesmp.github.io/vmp-portfolio",
     "name": "vmp-portfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://vanesmp.github.io/vmp-portfolio",
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.3.0",
