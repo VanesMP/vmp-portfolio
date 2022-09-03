@@ -52,7 +52,7 @@ function Background() {
         <div className='textHomepage'>
             <div className='border'></div>
                 <div className='containerTitre'>
-                    <h1 className='titreHomepage animate__animated animate__slideInLeft'>Vanessa MACEDO-PINTO</h1>
+                    <h1 className='titreHomepage'>Vanessa MACEDO-PINTO</h1>
                 </div>
             <div className='containerPhotoId'><img src="" alt="photoidentité" /></div>
             <div className='containerDescrption'>
