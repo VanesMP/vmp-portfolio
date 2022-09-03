@@ -1,0 +1,29 @@
+.container {
+    width: 95%;
+    border: solid 0.4px #ffffff2b;
+    height: 80px;
+    background-color: #ffffff21;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 37px;
+    position: relative;
+}
+
+nav {
+    width: 45%;
+    height: 100px;
+    display: flex;
+    margin-left: 50%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.list {
+    text-decoration: none;
+    cursor: pointer;
+    width: fit-content;
+    color: #113421;
+    /* font-family: 'Abril Fatface', cursive; */
+    font-family: 'Aboreto', cursive;
+}
