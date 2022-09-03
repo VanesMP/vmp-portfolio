@@ -56,8 +56,8 @@ function Background() {
                 </div>
             <div className='containerPhotoId'><img src="" alt="photoidentité" /></div>
             <div className='containerDescrption'>
-                <p className='descriptionHomepage'>Récemment diplomée d’ une formation de developpeur front-end spécialisée React.</p>
-                <p className='descriptionHomepage noMargin'>Je suis aujourd’hui à la recherche de cette première entreprise qui me permettrà de commencer cette nouvelle aventure professionnelle.</p>
+                <p className='descriptionHomepage'>Récemment diplomée d’ une formation de developpeur d'application front-end spécialisée en React.</p>
+                <p className='descriptionHomepage noMargin'>Je suis aujourd’hui à la recherche de cette première entreprise qui me permettra de commencer cette nouvelle aventure professionnelle.</p>
             </div>
         </div>
     </div>
