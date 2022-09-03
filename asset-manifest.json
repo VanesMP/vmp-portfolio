@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vmp-portfolio/static/css/main.ce8a1d91.css",
-    "main.js": "/vmp-portfolio/static/js/main.09b63d06.js",
+    "main.js": "/vmp-portfolio/static/js/main.a36bfba9.js",
     "static/js/787.e5dfbba2.chunk.js": "/vmp-portfolio/static/js/787.e5dfbba2.chunk.js",
     "index.html": "/vmp-portfolio/index.html",
     "main.ce8a1d91.css.map": "/vmp-portfolio/static/css/main.ce8a1d91.css.map",
-    "main.09b63d06.js.map": "/vmp-portfolio/static/js/main.09b63d06.js.map",
+    "main.a36bfba9.js.map": "/vmp-portfolio/static/js/main.a36bfba9.js.map",
     "787.e5dfbba2.chunk.js.map": "/vmp-portfolio/static/js/787.e5dfbba2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce8a1d91.css",
-    "static/js/main.09b63d06.js"
+    "static/js/main.a36bfba9.js"
   ]
 }
