@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vmp-portfolio/static/css/main.ce8a1d91.css",
+    "main.js": "/vmp-portfolio/static/js/main.6e6f14d7.js",
+    "static/js/787.fe039db8.chunk.js": "/vmp-portfolio/static/js/787.fe039db8.chunk.js",
+    "index.html": "/vmp-portfolio/index.html",
+    "main.ce8a1d91.css.map": "/vmp-portfolio/static/css/main.ce8a1d91.css.map",
+    "main.6e6f14d7.js.map": "/vmp-portfolio/static/js/main.6e6f14d7.js.map",
+    "787.fe039db8.chunk.js.map": "/vmp-portfolio/static/js/787.fe039db8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce8a1d91.css",
+    "static/js/main.6e6f14d7.js"
+  ]
+}
