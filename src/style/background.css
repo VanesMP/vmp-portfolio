@@ -448,7 +448,7 @@
 
 .textHomepage {
     position: relative;
-    width: 774px;
+    width: 776px;
     display: flex;
     flex-direction: column;
     margin-left: 208px;
@@ -457,7 +457,7 @@
 
 .containerPhotoId {
     width: 281px;
-    border: solid 10px #f1f0eb47;
+    border: solid 3px #f1f0eb47;
     height: 280px;
     background-color: #ffffff21;
     border-radius: 164px;
@@ -481,15 +481,15 @@
 }
 
 .border {
-    border-top: #f1f0eb47 solid 10px;
-    width: 800px;
+    border-top: #f1f0eb47 solid 3px;
+    width: 789px;
     border-bottom-right-radius: 30px;
 }
 
 .containerTitre {
     background-color: #879f85;
     margin-top: 0;
-    border-bottom: #f1f0eb47 solid 10px;
+    border-bottom: #f1f0eb47 solid 3px;
     height: 90px;
 }
 
@@ -501,6 +501,10 @@
     letter-spacing: 4px;
     text-align: center;
     margin: 0;
+}
+
+.titreHomepage .letters {
+    display: inline-block;
 }
 
 .noMargin {

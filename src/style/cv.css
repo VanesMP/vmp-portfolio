@@ -1,0 +1,60 @@
+.cv {
+    position: relative;
+    font-family: 'Aboreto', cursive;
+    font-weight: lighter;
+    font-size: 66px;
+    color: #879f85;
+    width: 220px;
+    height: 220px;
+    left: 919px;
+    bottom: -77px;
+}
+
+.cv .letters-container {
+    position: absolute;
+    left: 57px;
+    right: 0;
+    top: 89px;
+    bottom: 0;
+}
+
+.cv .letters {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    right: 6px;
+    bottom: 20px;
+}
+
+.cv .circle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.cv .circle-white {
+    width: 70px;
+    margin: auto;
+    height: 70px;
+    border: 2px dashed white;
+    border-radius: 2em;
+}
+
+.cv .circle-dark {
+    width: 146px;
+    height: 146px;
+    background-color: #b4c3b1cf;
+    border-radius: 3em;
+    z-index: 1;
+}
+
+.cv .circle-dark-dashed {
+    border-radius: 2.4em;
+    background-color: transparent;
+    border: 2px dashed #c4bebf;
+    width: 148px;
+    height: 148px;
+}
