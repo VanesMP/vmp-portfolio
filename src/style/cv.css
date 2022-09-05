@@ -1,13 +1,26 @@
+a {
+    cursor: pointer;
+}
+
+.containerCv {
+    width: 88%;
+    height: 220px;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
 .cv {
     position: relative;
     font-family: 'Aboreto', cursive;
     font-weight: lighter;
     font-size: 66px;
     color: #879f85;
+    text-shadow: 3px 2px 0px #ffffff63, 4px 3px 0px rgb(0 0 0 / 15%);
     width: 220px;
     height: 220px;
-    left: 919px;
-    bottom: -77px;
+    margin: 0;
 }
 
 .cv .letters-container {
@@ -35,14 +48,6 @@
     margin: auto;
 }
 
-.cv .circle-white {
-    width: 70px;
-    margin: auto;
-    height: 70px;
-    border: 2px dashed white;
-    border-radius: 2em;
-}
-
 .cv .circle-dark {
     width: 146px;
     height: 146px;
@@ -58,3 +63,33 @@
     width: 148px;
     height: 148px;
 }
+
+
+/* Responsive tablette */
+
+@media all and (min-width: 701px) and (max-width: 920px) {
+    .cv {
+        left: 645px;
+        bottom: -128px;
+        width: 115px;
+        height: 125px;
+        font-size: 45px;
+    }
+    .cv .letters-container {
+        left: 24px;
+        top: 54px;
+    }
+    .cv .circle-dark {
+        width: 105px;
+        height: 105px;
+    }
+    .cv .circle-dark-dashed {
+        width: 111px;
+        height: 111px;
+    }
+}
+
+
+/* Resposive Mobile */
+
+@media all and (min-width: 700px) {}

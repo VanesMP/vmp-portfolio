@@ -1,0 +1,128 @@
+.display {
+    display: flex;
+    flex-direction: column;
+    height: 795px;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.containerHome {
+    width: 88%;
+    position: relative;
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 0;
+    height: 435px;
+}
+
+.textHomepage {
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.containerPhotoId {
+    width: 280px;
+    border: solid 3px #f1f0eb47;
+    height: 280px;
+    background-color: #ffffff21;
+    border-radius: 164px;
+    position: relative;
+}
+
+.containerDescrption {
+    margin-top: 22px;
+}
+
+.descriptionHomepage {
+    font-family: 'Josefin Slab', serif;
+    font-size: 23px;
+    text-align: center;
+    color: beige;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.identity {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.border {
+    border-top: #f1f0eb47 solid 3px;
+    width: 730px;
+    border-bottom-right-radius: 30px;
+}
+
+.containerTitre {
+    display: flex;
+    flex-direction: column;
+    background-color: #879f85;
+    margin-top: 67px;
+    height: 90px;
+}
+
+.titreHomepage {
+    font-family: 'Aboreto', cursive;
+    font-size: 45px;
+    color: #163825fa;
+    line-height: 68px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 0;
+}
+
+.titreHomepage .letters {
+    display: inline-block;
+}
+
+.noMargin {
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* Responsive tablette */
+
+@media all and (min-width: 700px) and (max-width: 920px) {
+    .textHomepage {
+        width: 540px;
+        margin-left: 58px;
+    }
+    .border {
+        border-top: #f1f0eb47 solid 4px;
+        width: 544px;
+    }
+    .containerTitre {
+        height: 70px;
+    }
+    .titreHomepage {
+        font-size: 27px;
+        line-height: 70px;
+    }
+    .containerPhotoId {
+        width: 200px;
+        height: 200px;
+        margin-left: 535px;
+        margin-top: -137px;
+    }
+    .containerDescrption {
+        margin-top: -60px;
+    }
+    .descriptionHomepage {
+        font-size: 18px;
+        width: 460px;
+    }
+}
+
+
+/* Resposive Mobile */
+
+@media all and (min-width: 700px) {}

@@ -3,6 +3,11 @@ import './App.css';
 import Homepage from "./Pages/Homepage";
 
 
+/**Manage routes and render pages
+ * @function App
+ * @returns {JSX}
+ */
+
 function App() {
   return (
     <Router basename="/vmp-portfolio">

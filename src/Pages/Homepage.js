@@ -1,10 +1,10 @@
-import Background from '../Component/Background';
+import Home from '../Component/Home';
 
 export default function Homepage() {
 
     return(
         <div>
-            <Background/>
+            <Home/>
          </div>
     )
 }

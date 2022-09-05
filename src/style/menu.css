@@ -10,10 +10,19 @@
 }
 
 nav {
-    width: 45%;
+    /* lorsque il ya 4 pages a visiter(accueil, art, projet dev, contact )*/
+    /* width: 45%;
     height: 100px;
     display: flex;
     margin-left: 50%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center; */
+    /*  lorsque il ya 3 pages a visiter(accueil, projet dev, contact ) */
+    width: 35%;
+    height: 100px;
+    display: flex;
+    margin-left: 56%;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
@@ -26,3 +35,13 @@ nav {
     color: #113421;
     font-family: 'Aboreto', cursive;
 }
+
+
+/* Responsive tablette */
+
+@media all and (min-width: 700px) and (max-width: 900px) {}
+
+
+/* Resposive Mobile */
+
+@media all and (min-width: 700px) {}
