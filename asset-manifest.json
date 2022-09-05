@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/vmp-portfolio/static/css/main.ba195bb1.css",
-    "main.js": "/vmp-portfolio/static/js/main.4814c657.js",
+    "main.css": "/vmp-portfolio/static/css/main.5be1ab72.css",
+    "main.js": "/vmp-portfolio/static/js/main.1d62149a.js",
     "static/js/787.e5dfbba2.chunk.js": "/vmp-portfolio/static/js/787.e5dfbba2.chunk.js",
+    "static/media/cvimprimable.pdf": "/vmp-portfolio/static/media/cvimprimable.7c23d795991e5ad7e42c.pdf",
     "index.html": "/vmp-portfolio/index.html",
-    "main.ba195bb1.css.map": "/vmp-portfolio/static/css/main.ba195bb1.css.map",
-    "main.4814c657.js.map": "/vmp-portfolio/static/js/main.4814c657.js.map",
+    "main.5be1ab72.css.map": "/vmp-portfolio/static/css/main.5be1ab72.css.map",
+    "main.1d62149a.js.map": "/vmp-portfolio/static/js/main.1d62149a.js.map",
     "787.e5dfbba2.chunk.js.map": "/vmp-portfolio/static/js/787.e5dfbba2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba195bb1.css",
-    "static/js/main.4814c657.js"
+    "static/css/main.5be1ab72.css",
+    "static/js/main.1d62149a.js"
   ]
 }
