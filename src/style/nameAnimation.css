@@ -1,0 +1,13 @@
+.titreHomepage {
+    font-family: 'Aboreto', cursive;
+    font-size: 45px;
+    color: #163825fa;
+    line-height: 68px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 0;
+}
+
+.titreHomepage .letter {
+    display: inline-block;
+}

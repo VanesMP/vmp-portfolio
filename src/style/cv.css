@@ -1,10 +1,6 @@
-a {
-    cursor: pointer;
-}
-
 .containerCv {
     width: 88%;
-    height: 220px;
+    height: 154px;
     margin: auto;
     display: flex;
     align-items: flex-end;
@@ -18,16 +14,16 @@ a {
     font-size: 66px;
     color: #879f85;
     text-shadow: 3px 2px 0px #ffffff63, 4px 3px 0px rgb(0 0 0 / 15%);
-    width: 220px;
-    height: 220px;
+    width: 154px;
+    height: 154px;
     margin: 0;
 }
 
 .cv .letters-container {
     position: absolute;
-    left: 57px;
+    left: 26px;
     right: 0;
-    top: 89px;
+    top: 57px;
     bottom: 0;
 }
 
