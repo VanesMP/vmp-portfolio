@@ -63,13 +63,16 @@
 
 /* Responsive tablette */
 
-@media all and (min-width: 701px) and (max-width: 920px) {
+@media all and (max-width: 920px) {
     .cv {
-        left: 645px;
-        bottom: -128px;
+        left: 0;
+        bottom: 0;
         width: 115px;
         height: 125px;
         font-size: 45px;
+    }
+    .containerCv {
+        margin-top: -120px;
     }
     .cv .letters-container {
         left: 24px;

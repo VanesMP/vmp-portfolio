@@ -38,7 +38,7 @@
 
 .descriptionHomepage {
     font-family: 'Josefin Slab', serif;
-    font-size: 23px;
+    font-size: 22px;
     text-align: center;
     color: beige;
     width: 600px;
@@ -70,7 +70,7 @@
 
 .titreHomepage {
     font-family: 'Aboreto', cursive;
-    font-size: 45px;
+    font-size: 40px;
     color: #163825fa;
     line-height: 68px;
     letter-spacing: 4px;
@@ -92,29 +92,26 @@
 /* Responsive tablette */
 
 @media all and (min-width: 700px) and (max-width: 920px) {
-    .textHomepage {
-        width: 540px;
-        margin-left: 58px;
-    }
     .border {
         border-top: #f1f0eb47 solid 4px;
         width: 544px;
+        margin-top: 29px;
     }
     .containerTitre {
         height: 70px;
     }
     .titreHomepage {
         font-size: 27px;
-        line-height: 70px;
+        line-height: 0;
     }
     .containerPhotoId {
-        width: 200px;
-        height: 200px;
-        margin-left: 535px;
-        margin-top: -137px;
+        width: 180px;
+        height: 180px;
+        margin-left: 0;
+        margin-top: 0;
     }
     .containerDescrption {
-        margin-top: -60px;
+        margin-top: 0;
     }
     .descriptionHomepage {
         font-size: 18px;

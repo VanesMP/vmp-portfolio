@@ -2,6 +2,7 @@ import '../style/home.css';
 import Menu from './Menu';
 import Cv from './Cv';
 import Background from './Background';
+import NameAnimation from './NameAnimation';
 
 /** Render all the elemnentto the homepage
  * @function Home
@@ -19,7 +20,8 @@ function Home() {
         <div className='textHomepage'>
             <div className='identity'>
                 <div className='containerTitre'>
-                    <h1 className='titreHomepage'>Vanessa MACEDO-PINTO</h1>
+                    {/* <h1 className='titreHomepage'>Vanessa MACEDO-PINTO</h1> */}
+                    <NameAnimation />
                     <div className='border'></div>                
                     <div className='containerDescrption'>
                         <p className='descriptionHomepage'>Récemment diplomée d’ une formation de developpeur d'application front-end spécialisée en React.</p>
