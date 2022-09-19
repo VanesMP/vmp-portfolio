@@ -14,7 +14,7 @@ function Cv () {
     
     animeCv = 
         anime.timeline({loop: false})
-            .add({
+        .add({
                 targets: '.cv .circle-container',
                 scale: [0, 1],
                 duration: 1100,
@@ -47,7 +47,8 @@ function Cv () {
         <a href={pdfcv}>
         <h1 ref={animeCv} className="cv">
             <span className="letters-container">
-            <span className="letters letters-left">C.V.</span></span>
+            <span className="letters letters-left">C.V.</span>
+            </span>
             <span className="circle circle-white"></span>
             <span className="circle circle-dark"></span>
             <span className="circle circle-container"><span className="circle circle-dark-dashed"></span></span>
