@@ -1,0 +1,10 @@
+.containerMenuProject {
+    width: 90%;
+    border: solid 0.4px #879f85;
+    height: 80px;
+    background-color: #879f858f;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 37px;
+    position: relative;
+}

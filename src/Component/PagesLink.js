@@ -19,7 +19,7 @@ export default function PagesLink({ linkTo, text }) {
             style={({ isActive }) => 
                 isActive
                     ? {
-                        color: '#c1e2bb', fontSize: '21px'
+                        color: '#d6f9d0', fontSize: '21px'
                     }
                     : {
                         color: '#113421', fontSize: '18px'

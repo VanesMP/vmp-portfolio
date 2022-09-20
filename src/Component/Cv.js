@@ -45,14 +45,14 @@ function Cv () {
     return(
         <div className="containerCv">
         <a href={pdfcv}>
-        <h1 ref={animeCv} className="cv">
+        <div ref={animeCv} className="cv">
             <span className="letters-container">
             <span className="letters letters-left">C.V.</span>
             </span>
             <span className="circle circle-white"></span>
             <span className="circle circle-dark"></span>
             <span className="circle circle-container"><span className="circle circle-dark-dashed"></span></span>
-        </h1>
+        </div>
         </a>
         </div>
     )
