@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Homepage from "./Pages/Homepage";
 import Projectpage from "./Pages/Projectpage";
-
+import ContactPage from "./Pages/ContactPage";
 
 /**Manage routes and render pages
  * @function App
@@ -15,8 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/projects" element={<Projectpage />} />
-        <Route></Route>
-        <Route></Route>
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </Router>
   );

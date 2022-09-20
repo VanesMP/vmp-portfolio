@@ -1,15 +1,13 @@
-import '../style/background.css';
-
 /** Render animation background
  * @function Background
  * @returns {JSX}
  */
 
-function Background() {
+function Background({backgroundHomePage}) {
 
     return(
         <div>
-            <div className="background">
+            <div className={backgroundHomePage}>
                 <span></span>
                 <span></span>
                 <span></span>

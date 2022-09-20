@@ -1,4 +1,5 @@
 import '../style/home.css';
+import '../style/backgroundHome.css';
 import Menu from './Menu';
 import Cv from './Cv';
 import Background from './Background';
@@ -13,7 +14,7 @@ function Home() {
     
     return(
         <div>
-        <Background />
+        <Background backgroundHomePage='background'/>
         <Menu styleActive='containerMenuHome' />
         <div className='display'>
         <div className='containerHome'>

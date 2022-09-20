@@ -5,9 +5,10 @@ function Projectpage() {
 
     return(
         <div className="backgroundProjectpage">
-            <div>
                 <Menu styleActive='containerMenuProject'/>
-            </div>
+                <div className="projects">
+
+                </div>
         </div>
     )
 }
