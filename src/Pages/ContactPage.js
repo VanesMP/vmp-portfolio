@@ -1,11 +1,14 @@
 import '../style/contactPage.css';
 import Menu from "../Component/Menu";
 import linkIn from "../assets/linkContactIn.png";
+import Background from '../Component/Background';
+import '../style/backgroundContact.css';
 
 function ContactPage() {
 
     return(
         <div className="backgroundContactpage">
+                <Background backgroundHomePage='backgroundContact'/>
                 <Menu styleActive='containerMenuContact'/>
                 <div className='containerLinkIn'>
                     <a href="www.linkedin.com/in/vanessa-macedo-pinto-devJunior">

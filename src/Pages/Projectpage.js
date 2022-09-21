@@ -1,14 +1,17 @@
 import "../style/projectPage.css";
+import "../style/backgroundProject.css";
 import Menu from "../Component/Menu";
+import Background from "../Component/Background";
 
 function Projectpage() {
 
     return(
-        <div className="backgroundProjectpage">
-                <Menu styleActive='containerMenuProject'/>
-                <div className="projects">
+        <div>
+            <Background backgroundHomePage='backgroundProjects'/>
+            <Menu styleActive='containerMenuProject'/>
+            <div className="projects">
 
-                </div>
+            </div>
         </div>
     )
 }

@@ -4,20 +4,20 @@
     }
 }
 
-
-/* e1cc62  */
-
-.backgroundProjects {
+.backgroundContact {
     position: fixed;
-    width: 100%;
-    height: 100%;
     top: 0;
     left: 0;
-    background-color: #879f85b8;
+    background-color: #879f85;
     overflow: hidden;
+    width: 90%;
+    height: 80px;
+    border-radius: 40px;
+    margin-top: 37px;
+    margin-left: 5%;
 }
 
-.backgroundProjects span {
+.backgroundContact span {
     width: 1vmin;
     height: 1vmin;
     border-radius: 1vmin;
@@ -29,8 +29,8 @@
     animation-iteration-count: infinite;
 }
 
-.backgroundProjects span:nth-child(0) {
-    color: #e1cc62;
+.backgroundContact span:nth-child(0) {
+    color: #f1f0eb;
     top: 55%;
     left: 66%;
     animation-duration: 63s;
@@ -39,8 +39,8 @@
     box-shadow: 2vmin 0 0.5873746304377039vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(1) {
-    color: #79ad9e;
+.backgroundContact span:nth-child(1) {
+    color: #c4bebf;
     top: 41%;
     left: 83%;
     animation-duration: 63s;
@@ -49,8 +49,8 @@
     box-shadow: -2vmin 0 0.8570655038652022vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(2) {
-    color: #9ee5cb;
+.backgroundContact span:nth-child(2) {
+    color: #626367;
     top: 41%;
     left: 87%;
     animation-duration: 252s;
@@ -59,8 +59,8 @@
     box-shadow: 2vmin 0 0.4912957938473961vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(3) {
-    color: #79ad9e;
+.backgroundContact span:nth-child(3) {
+    color: #c4bebf;
     top: 54%;
     left: 78%;
     animation-duration: 130s;
@@ -69,8 +69,8 @@
     box-shadow: 2vmin 0 0.9406328285298045vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(4) {
-    color: #79ad9e;
+.backgroundContact span:nth-child(4) {
+    color: #c4bebf;
     top: 9%;
     left: 56%;
     animation-duration: 138s;
@@ -79,8 +79,8 @@
     box-shadow: -2vmin 0 0.7934644778428859vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(5) {
-    color: #79ad9e;
+.backgroundContact span:nth-child(5) {
+    color: #c4bebf;
     top: 99%;
     left: 72%;
     animation-duration: 245s;
@@ -89,8 +89,8 @@
     box-shadow: -2vmin 0 0.32986912981671734vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(6) {
-    color: #79ad9e;
+.backgroundContact span:nth-child(6) {
+    color: #c4bebf;
     top: 66%;
     left: 54%;
     animation-duration: 221s;
@@ -99,8 +99,8 @@
     box-shadow: -2vmin 0 0.8609718002024256vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(7) {
-    color: #79ad9e;
+.backgroundContact span:nth-child(7) {
+    color: #c4bebf;
     top: 41%;
     left: 47%;
     animation-duration: 316s;
@@ -109,8 +109,8 @@
     box-shadow: 2vmin 0 0.903882538029348vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(8) {
-    color: #79ad9e;
+.backgroundContact span:nth-child(8) {
+    color: #c4bebf;
     top: 72%;
     left: 49%;
     animation-duration: 75s;
@@ -119,8 +119,8 @@
     box-shadow: 2vmin 0 1.1725081741368326vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(9) {
-    color: #e1cc62;
+.backgroundContact span:nth-child(9) {
+    color: #f1f0eb;
     top: 70%;
     left: 53%;
     animation-duration: 22s;
@@ -129,8 +129,8 @@
     box-shadow: -2vmin 0 1.0823156829397487vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(10) {
-    color: #79ad9e;
+.backgroundContact span:nth-child(10) {
+    color: #c4bebf;
     top: 34%;
     left: 86%;
     animation-duration: 265s;
@@ -139,8 +139,8 @@
     box-shadow: 2vmin 0 1.1665717961647832vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(11) {
-    color: #e1cc62;
+.backgroundContact span:nth-child(11) {
+    color: #f1f0eb;
     top: 35%;
     left: 10%;
     animation-duration: 74s;
@@ -149,8 +149,8 @@
     box-shadow: 2vmin 0 0.8490780158094815vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(12) {
-    color: #e1cc62;
+.backgroundContact span:nth-child(12) {
+    color: #f1f0eb;
     top: 11%;
     left: 87%;
     animation-duration: 308s;
@@ -159,8 +159,8 @@
     box-shadow: 2vmin 0 0.5596762556552946vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(13) {
-    color: #e1cc62;
+.backgroundContact span:nth-child(13) {
+    color: #f1f0eb;
     top: 60%;
     left: 42%;
     animation-duration: 129s;
@@ -169,8 +169,8 @@
     box-shadow: -2vmin 0 1.0493529978289726vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(14) {
-    color: #79ad9e;
+.backgroundContact span:nth-child(14) {
+    color: #c4bebf;
     top: 29%;
     left: 6%;
     animation-duration: 124s;
@@ -179,7 +179,7 @@
     box-shadow: -2vmin 0 0.7600808678213116vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(15) {
+.backgroundContact span:nth-child(15) {
     color: #c1e2bb;
     top: 9%;
     left: 31%;
@@ -189,8 +189,8 @@
     box-shadow: -2vmin 0 0.982927218302597vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(16) {
-    color: #9ee5cb;
+.backgroundContact span:nth-child(16) {
+    color: #626367;
     top: 95%;
     left: 14%;
     animation-duration: 263s;
@@ -199,8 +199,8 @@
     box-shadow: -2vmin 0 1.0293456125479419vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(17) {
-    color: #79ad9e;
+.backgroundContact span:nth-child(17) {
+    color: #c4bebf;
     top: 67%;
     left: 23%;
     animation-duration: 370s;
@@ -209,8 +209,8 @@
     box-shadow: 2vmin 0 0.8455338523312304vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(18) {
-    color: #e1cc62;
+.backgroundContact span:nth-child(18) {
+    color: #f1f0eb;
     top: 40%;
     left: 84%;
     animation-duration: 11s;
@@ -219,7 +219,7 @@
     box-shadow: -2vmin 0 0.4612060116316181vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(19) {
+.backgroundContact span:nth-child(19) {
     color: #c1e2bb;
     top: 26%;
     left: 71%;
@@ -229,8 +229,8 @@
     box-shadow: 2vmin 0 0.47859825034502124vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(20) {
-    color: #79ad9e;
+.backgroundContact span:nth-child(20) {
+    color: #c4bebf;
     top: 50%;
     left: 78%;
     animation-duration: 79s;
@@ -239,8 +239,8 @@
     box-shadow: 2vmin 0 0.26700207241626495vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(21) {
-    color: #79ad9e;
+.backgroundContact span:nth-child(21) {
+    color: #c4bebf;
     top: 4%;
     left: 80%;
     animation-duration: 311s;
@@ -249,8 +249,8 @@
     box-shadow: 2vmin 0 0.3121206236852119vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(22) {
-    color: #79ad9e;
+.backgroundContact span:nth-child(22) {
+    color: #c4bebf;
     top: 4%;
     left: 23%;
     animation-duration: 269s;
@@ -259,8 +259,8 @@
     box-shadow: -2vmin 0 0.7111791457120389vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(23) {
-    color: #e1cc62;
+.backgroundContact span:nth-child(23) {
+    color: #f1f0eb;
     top: 13%;
     left: 8%;
     animation-duration: 22s;
@@ -269,8 +269,8 @@
     box-shadow: -2vmin 0 0.28507357821011214vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(24) {
-    color: #79ad9e;
+.backgroundContact span:nth-child(24) {
+    color: #c4bebf;
     top: 11%;
     left: 15%;
     animation-duration: 199s;
@@ -279,7 +279,7 @@
     box-shadow: -2vmin 0 0.7997451420793693vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(25) {
+.backgroundContact span:nth-child(25) {
     color: #c1e2bb;
     top: 22%;
     left: 60%;
@@ -289,7 +289,7 @@
     box-shadow: -2vmin 0 1.2311259359094857vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(26) {
+.backgroundContact span:nth-child(26) {
     color: #c1e2bb;
     top: 88%;
     left: 73%;
@@ -299,8 +299,8 @@
     box-shadow: -2vmin 0 0.9283293166739504vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(27) {
-    color: #9ee5cb;
+.backgroundContact span:nth-child(27) {
+    color: #626367;
     top: 72%;
     left: 33%;
     animation-duration: 337s;
@@ -309,8 +309,8 @@
     box-shadow: 2vmin 0 0.6742960958484898vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(28) {
-    color: #e1cc62;
+.backgroundContact span:nth-child(28) {
+    color: #f1f0eb;
     top: 18%;
     left: 74%;
     animation-duration: 225s;
@@ -319,8 +319,8 @@
     box-shadow: 2vmin 0 0.7225701510022833vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(29) {
-    color: #e1cc62;
+.backgroundContact span:nth-child(29) {
+    color: #f1f0eb;
     top: 18%;
     left: 58%;
     animation-duration: 252s;
@@ -329,7 +329,7 @@
     box-shadow: 2vmin 0 1.2459333268697859vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(30) {
+.backgroundContact span:nth-child(30) {
     color: #c1e2bb;
     top: 85%;
     left: 6%;
@@ -339,8 +339,8 @@
     box-shadow: -2vmin 0 0.3044361724051905vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(31) {
-    color: #e1cc62;
+.backgroundContact span:nth-child(31) {
+    color: #f1f0eb;
     top: 89%;
     left: 78%;
     animation-duration: 192s;
@@ -349,8 +349,8 @@
     box-shadow: 2vmin 0 0.33947251975674453vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(32) {
-    color: #79ad9e;
+.backgroundContact span:nth-child(32) {
+    color: #c4bebf;
     top: 98%;
     left: 44%;
     animation-duration: 126s;
@@ -359,8 +359,8 @@
     box-shadow: -2vmin 0 0.9733952011194724vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(33) {
-    color: #e1cc62;
+.backgroundContact span:nth-child(33) {
+    color: #f1f0eb;
     top: 42%;
     left: 87%;
     animation-duration: 53s;
@@ -369,8 +369,8 @@
     box-shadow: -2vmin 0 0.4623278868533842vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(34) {
-    color: #79ad9e;
+.backgroundContact span:nth-child(34) {
+    color: #c4bebf;
     top: 25%;
     left: 33%;
     animation-duration: 121s;
@@ -379,8 +379,8 @@
     box-shadow: -2vmin 0 1.212155601219249vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(35) {
-    color: #e1cc62;
+.backgroundContact span:nth-child(35) {
+    color: #f1f0eb;
     top: 14%;
     left: 47%;
     animation-duration: 84s;
@@ -389,7 +389,7 @@
     box-shadow: -2vmin 0 0.3696737601619533vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(36) {
+.backgroundContact span:nth-child(36) {
     color: #c1e2bb;
     top: 93%;
     left: 38%;
@@ -399,8 +399,8 @@
     box-shadow: -2vmin 0 0.39912979397653214vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(37) {
-    color: #9ee5cb;
+.backgroundContact span:nth-child(37) {
+    color: #626367;
     top: 7%;
     left: 56%;
     animation-duration: 290s;
@@ -409,8 +409,8 @@
     box-shadow: -2vmin 0 0.9778133212126088vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(38) {
-    color: #79ad9e;
+.backgroundContact span:nth-child(38) {
+    color: #c4bebf;
     top: 78%;
     left: 91%;
     animation-duration: 312s;
@@ -419,8 +419,8 @@
     box-shadow: 2vmin 0 0.35655806982454563vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(39) {
-    color: #9ee5cb;
+.backgroundContact span:nth-child(39) {
+    color: #626367;
     top: 1%;
     left: 25%;
     animation-duration: 57s;
@@ -429,8 +429,8 @@
     box-shadow: -2vmin 0 0.7696991761872722vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(40) {
-    color: #9ee5cb;
+.backgroundContact span:nth-child(40) {
+    color: #626367;
     top: 62%;
     left: 86%;
     animation-duration: 371s;
@@ -439,8 +439,8 @@
     box-shadow: -2vmin 0 0.9266886412563744vmin currentColor;
 }
 
-.backgroundProjects span:nth-child(41) {
-    color: #9ee5cb;
+.backgroundContact span:nth-child(41) {
+    color: #626367;
     top: 45%;
     left: 82%;
     animation-duration: 13s;

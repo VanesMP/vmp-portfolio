@@ -11,12 +11,14 @@ import PagesLink from './PagesLink';
 export default function Menu({styleActive}) {
 
     return(
+        <div>
         <div className={styleActive}>
             <nav >
             <PagesLink linkTo="/" text="Accueil" />
             <PagesLink linkTo="/projects" text="Projets" />
             <PagesLink linkTo="/contact" text="Contact" />
             </nav>
+        </div>
         </div>
     )
 }
