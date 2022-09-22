@@ -3,7 +3,7 @@
     height: 100%;
     margin: 0;
     position: absolute;
-    background-color: #879f85f5;
+    background-color: #879f85ed;
 }
 
 .containerMenuContact {
@@ -19,13 +19,11 @@
 
 .containerLinkIn {
     width: 100%;
-    height: 128px;
+    height: 228px;
     display: flex;
     justify-content: flex-end;
 }
 
 .logoIn {
-    width: 128px;
-    height: 128px;
     margin: 20px;
 }

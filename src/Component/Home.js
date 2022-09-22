@@ -15,7 +15,7 @@ function Home() {
     return(
         <div>
         <Background backgroundHomePage='background'/>
-        <Menu styleActive='containerMenuHome' />
+        <Menu />
         <div className='display'>
         <div className='containerHome'>
         <div className='textHomepage'>

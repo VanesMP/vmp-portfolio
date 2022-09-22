@@ -4,15 +4,14 @@ import PagesLink from './PagesLink';
 
 /** Render navigation bar
  * @function Menu
- * @param {string} styleActive
  * @returns {JSX}
  */
 
-export default function Menu({styleActive}) {
+export default function Menu() {
 
     return(
         <div>
-        <div className={styleActive}>
+        <div className='containerMenu'>
             <nav >
             <PagesLink linkTo="/" text="Accueil" />
             <PagesLink linkTo="/projects" text="Projets" />

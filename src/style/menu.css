@@ -9,7 +9,7 @@ nav {
     align-items: center; */
     /*  lorsque il ya 3 pages a visiter(accueil, projet dev, contact ) */
     width: 35%;
-    height: 100px;
+    height: 80px;
     display: flex;
     margin-left: 56%;
     justify-content: space-between;
